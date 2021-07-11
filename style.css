@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:seagreen;
+    padding: 50px 0;
+}
+
+section h1{
+    font-size: 3rem;
+    font-family:fantasy;
+    font-weight: bold;
+    text-align: center;
+}
+
+section p{
+    color:rgb(97, 75, 75);
+    font-size: 1rem;
+    font-family:cursive;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.textarea{
+    margin-top: 1rem;
+    text-align: left;
+    color: black;
+    background-color: white;
+    padding:10px;
+    border-radius: 8px;
+}
+
+.msg{
+    
+} 
+
+.msg.visible{
+    color: red;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: rgb(167, 241, 145);
+    height: 3rem;
+    width: 7rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    font-family:cursive;
+    color:black;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
+
+.main{
+    position: absolute;
+    top:13rem;
+    left:35rem;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
