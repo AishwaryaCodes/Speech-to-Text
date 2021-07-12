@@ -61,7 +61,6 @@ section p{
     border-radius: 0.5rem;
     font-family:cursive;
     color:black;
-    
 }
 
 .btn:hover{
@@ -72,11 +71,20 @@ section p{
 }
 
 .main{
-    position: absolute;
-    top:13rem;
-    left:35rem;    
+    position: relative;
+    align-self: center;
+    justify-content: center;   
 }
 
+@media screen and (max-width: 600px) {
+  section h1{
+    font-size: 2rem;
+  }
+
+  .main{
+     justify-content: center;  
+  }
+}
 
 
 
